@@ -1,0 +1,14 @@
+{
+	"include": [
+		"src"
+	],
+	"compilerOptions": {
+		"target": "es6",
+		"skipLibCheck": true,
+		"declaration": true,
+		"inlineSourceMap": false,
+		"strict": true,
+		"pretty": true,
+		"removeComments": true
+	}
+}

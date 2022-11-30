@@ -1,0 +1,36 @@
+{
+	"name": "use-css-query",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist-mjs/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "npm-ez dev",
+		"build": "npm-ez build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NazmusSayad/use-css-query.git"
+	},
+	"author": "NazmusSayad",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/NazmusSayad/use-css-query/issues"
+	},
+	"homepage": "https://github.com/NazmusSayad/use-css-query#readme",
+	"peerDependencies": {
+		"react": ">=16.8.0"
+	},
+	"devDependencies": {
+		"npm-ez": "latest",
+		"@types/react": "^18.0.25",
+		"typescript": "^4.9.3"
+	},
+	"types": "./dist-mjs/index.d.js",
+	"exports": {
+		".": {
+			"require": "./dist-cjs/index.js",
+			"import": "./dist-mjs/index.js"
+		}
+	}
+}
